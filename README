@@ -1,0 +1,6 @@
+This is a game of Hangman - with nice ASCII-arts
+2nd project in Haskell so don't be to critical.
+packed and stacked in cabal
+
+TODO
+make any dicitonary text file readable
