@@ -1,0 +1,15 @@
+Name:                   Hangman
+Version:                0.1
+Stability:              experimental (lists of words are not read properly)
+Description:            A game of Hangman
+License:                GPL-2
+License-file:           LICENSE
+Extra-source-files:     README
+Author:                 Martin Heuschober
+Build-Type:             Simple
+Cabal-Version:          >=1.8.0.2
+
+library
+    ghc-options:        -Wall
+    Build-Depends:      base >=4.2.0, ansi-terminal, random, containers
+    Exposed-Modules:    Hangman
